@@ -15,6 +15,17 @@ print("\033[92m" + pyfiglet.figlet_format(greet, font = "Thin"))
 
 # Pseudocode
 # define squared, define cube
+def squared(i):
+    squ = int(i) ** 2
+    return squ
+
+def cube(i):
+    cub = int(i) ** 3
+    return cub
+
+import random
+even = []
+odd = []
 # open integers.txt (write)
 # read integers.txt per lines
 # even or odd
