@@ -32,7 +32,14 @@ with open("integers.txt", "w") as f:
         num = random.randint(1,20)
         f.write(str(num) + "\n")
 # read integers.txt per lines
+with open("integers.txt", "r") as f:
+    integers = f.readlines()
 # even or odd
+for i in integers:
+    if int(i) % 2 == 0:
+        even.append(squared(i))
+    else:
+        odd.append(cube(i))
 # open double.txt (write)
 # if even, write double.txt
 # open triple.txt (write)
