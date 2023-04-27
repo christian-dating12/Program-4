@@ -42,6 +42,9 @@ for i in integers:
         odd.append(cube(i))
 # open double.txt (write)
 # if even, write double.txt
+with open("double.txt", "w") as f:
+    for numbers in even:
+        f.write(str(numbers) + "\n")
 # open triple.txt (write)
 # if odd, write triple.txt
 # START
