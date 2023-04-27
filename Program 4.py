@@ -47,4 +47,7 @@ with open("double.txt", "w") as f:
         f.write(str(numbers) + "\n")
 # open triple.txt (write)
 # if odd, write triple.txt
+with open("triple.txt", "w") as f:
+    for numbers in odd:
+        f.write(str(numbers) + "\n")
 # START
