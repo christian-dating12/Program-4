@@ -12,3 +12,14 @@ print("\033[90m=" * 80)
 import pyfiglet
 greet = "GOOD DAY!"
 print("\033[92m" + pyfiglet.figlet_format(greet, font = "Thin"))
+
+# Pseudocode
+# define squared, define cube
+# open integers.txt (write)
+# read integers.txt per lines
+# even or odd
+# open double.txt (write)
+# if even, write double.txt
+# open triple.txt (write)
+# if odd, write triple.txt
+# START
