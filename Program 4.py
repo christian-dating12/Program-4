@@ -27,6 +27,10 @@ import random
 even = []
 odd = []
 # open integers.txt (write)
+with open("integers.txt", "w") as f:
+    for i in range(20):
+        num = random.randint(1,20)
+        f.write(str(num) + "\n")
 # read integers.txt per lines
 # even or odd
 # open double.txt (write)
